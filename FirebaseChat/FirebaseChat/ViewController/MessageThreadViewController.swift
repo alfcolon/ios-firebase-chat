@@ -1,5 +1,5 @@
 //
-//  DetailViewController.swift
+//  ChatRoomViewController.swift
 //  FirebaseChat
 //
 //  Created by Alfredo Colon on 11/23/20.
@@ -8,11 +8,10 @@
 import UIKit
 import MessageKit
 
-class ChatViewController: MessagesViewController, MessagesDataSource, MessagesLayoutDelegate, MessagesDisplayDelegate  {
+class MessageThreadViewController: MessagesViewController, MessagesDataSource, MessagesLayoutDelegate, MessagesDisplayDelegate  {
 
     //MARK: - Properties
     
-    var chatRoom: ChatRoom!
     let testSender = Sender(senderId: "Gaga", displayName: "Lady Gaga")
 
     //MARK: - View Life Cycle

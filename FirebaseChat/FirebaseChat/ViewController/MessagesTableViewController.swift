@@ -8,7 +8,7 @@
 import UIKit
 import MessageKit
 
-class MainTableViewController: UITableViewController {
+class MessagesTableViewController: UITableViewController {
 
     //MARK: - View Life Cycle
     
@@ -20,7 +20,7 @@ class MainTableViewController: UITableViewController {
     //MARK: - Methods
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destination = segue.destination as! ChatViewController
+        let destination = segue.destination as! MessageThreadViewController
         
     }
     
@@ -35,7 +35,7 @@ class MainTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! MessageTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MessageThreadPreview", for: indexPath) as! MessageThreadPreviewTableViewCell
         
         cell.messageLabel.text = "Test"
         

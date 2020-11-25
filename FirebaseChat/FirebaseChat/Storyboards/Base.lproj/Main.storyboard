@@ -8,16 +8,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main Table View Controller-->
+        <!--Messages Table View Controller-->
         <scene sceneID="YES-tg-P48">
             <objects>
-                <tableViewController id="KqW-E6-NKy" customClass="MainTableViewController" customModule="FirebaseChat" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="KqW-E6-NKy" customClass="MessagesTableViewController" customModule="FirebaseChat" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="gyf-xn-2vD">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="weR-N5-BUs" customClass="MessageTableViewCell" customModule="FirebaseChat" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MessageThreadPreview" id="weR-N5-BUs" customClass="MessageThreadPreviewTableViewCell" customModule="FirebaseChat" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="weR-N5-BUs" id="xHA-Jf-tfj">
@@ -73,10 +73,10 @@
             </objects>
             <point key="canvasLocation" x="589.85507246376812" y="-549.10714285714278"/>
         </scene>
-        <!--Chat View Controller-->
+        <!--Message Thread View Controller-->
         <scene sceneID="POb-E1-Bqu">
             <objects>
-                <viewController id="1Al-7X-9nB" customClass="ChatViewController" customModule="FirebaseChat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1Al-7X-9nB" customClass="MessageThreadViewController" customModule="FirebaseChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OUE-fh-XDn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

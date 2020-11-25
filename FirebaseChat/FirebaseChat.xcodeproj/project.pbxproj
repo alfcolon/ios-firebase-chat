@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		38627115256C9F2300DC4E86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38627114256C9F2300DC4E86 /* AppDelegate.swift */; };
 		38627117256C9F2300DC4E86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38627116256C9F2300DC4E86 /* SceneDelegate.swift */; };
-		38627119256C9F2300DC4E86 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38627118256C9F2300DC4E86 /* MainTableViewController.swift */; };
+		38627119256C9F2300DC4E86 /* MessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38627118256C9F2300DC4E86 /* MessagesTableViewController.swift */; };
 		3862711C256C9F2300DC4E86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3862711A256C9F2300DC4E86 /* Main.storyboard */; };
 		3862711E256C9F2500DC4E86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3862711D256C9F2500DC4E86 /* Assets.xcassets */; };
 		38627121256C9F2500DC4E86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3862711F256C9F2500DC4E86 /* LaunchScreen.storyboard */; };
 		38627184256CB0CA00DC4E86 /* MessageKit in Frameworks */ = {isa = PBXBuildFile; productRef = 38627183256CB0CA00DC4E86 /* MessageKit */; };
-		38627187256CB24F00DC4E86 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38627186256CB24F00DC4E86 /* ChatViewController.swift */; };
+		38627187256CB24F00DC4E86 /* MessageThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38627186256CB24F00DC4E86 /* MessageThreadViewController.swift */; };
 		3862718B256CB2B000DC4E86 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3862718A256CB2B000DC4E86 /* Message.swift */; };
 		38627191256CB32000DC4E86 /* MessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38627190256CB32000DC4E86 /* MessageController.swift */; };
 		38627273256E08D800DC4E86 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 38627272256E08D800DC4E86 /* GoogleService-Info.plist */; };
-		38627298256E0DB900DC4E86 /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38627297256E0DB900DC4E86 /* MessageTableViewCell.swift */; };
+		38627298256E0DB900DC4E86 /* MessageThreadPreviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38627297256E0DB900DC4E86 /* MessageThreadPreviewTableViewCell.swift */; };
 		68AE8B4114234A8032CA27B9 /* Pods_FirebaseChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0D96EB9502990AF01E210D /* Pods_FirebaseChat.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,16 +26,16 @@
 		38627111256C9F2300DC4E86 /* FirebaseChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38627114256C9F2300DC4E86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38627116256C9F2300DC4E86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		38627118256C9F2300DC4E86 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		38627118256C9F2300DC4E86 /* MessagesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTableViewController.swift; sourceTree = "<group>"; };
 		3862711B256C9F2300DC4E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3862711D256C9F2500DC4E86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38627120256C9F2500DC4E86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38627122256C9F2500DC4E86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38627186256CB24F00DC4E86 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		38627186256CB24F00DC4E86 /* MessageThreadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageThreadViewController.swift; sourceTree = "<group>"; };
 		3862718A256CB2B000DC4E86 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		38627190256CB32000DC4E86 /* MessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageController.swift; sourceTree = "<group>"; };
 		38627272256E08D800DC4E86 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		38627297256E0DB900DC4E86 /* MessageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		38627297256E0DB900DC4E86 /* MessageThreadPreviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageThreadPreviewTableViewCell.swift; sourceTree = "<group>"; };
 		4A1947F4282CE23ECBE59A63 /* Pods-FirebaseChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseChat.release.xcconfig"; path = "Target Support Files/Pods-FirebaseChat/Pods-FirebaseChat.release.xcconfig"; sourceTree = "<group>"; };
 		7A0D96EB9502990AF01E210D /* Pods_FirebaseChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A5EAF8F6544DA9D7116F096 /* Pods-FirebaseChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseChat.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseChat/Pods-FirebaseChat.debug.xcconfig"; sourceTree = "<group>"; };
@@ -109,8 +109,8 @@
 		3862712D256CA1A100DC4E86 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				38627118256C9F2300DC4E86 /* MainTableViewController.swift */,
-				38627186256CB24F00DC4E86 /* ChatViewController.swift */,
+				38627118256C9F2300DC4E86 /* MessagesTableViewController.swift */,
+				38627186256CB24F00DC4E86 /* MessageThreadViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -134,7 +134,7 @@
 		38627130256CA1BF00DC4E86 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				38627297256E0DB900DC4E86 /* MessageTableViewCell.swift */,
+				38627297256E0DB900DC4E86 /* MessageThreadPreviewTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -277,12 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38627298256E0DB900DC4E86 /* MessageTableViewCell.swift in Sources */,
-				38627119256C9F2300DC4E86 /* MainTableViewController.swift in Sources */,
+				38627298256E0DB900DC4E86 /* MessageThreadPreviewTableViewCell.swift in Sources */,
+				38627119256C9F2300DC4E86 /* MessagesTableViewController.swift in Sources */,
 				38627115256C9F2300DC4E86 /* AppDelegate.swift in Sources */,
 				3862718B256CB2B000DC4E86 /* Message.swift in Sources */,
 				38627117256C9F2300DC4E86 /* SceneDelegate.swift in Sources */,
-				38627187256CB24F00DC4E86 /* ChatViewController.swift in Sources */,
+				38627187256CB24F00DC4E86 /* MessageThreadViewController.swift in Sources */,
 				38627191256CB32000DC4E86 /* MessageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
