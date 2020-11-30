@@ -11,8 +11,6 @@ import MessageKit
 class MessageThreadViewController: MessagesViewController, MessagesDataSource, MessagesLayoutDelegate, MessagesDisplayDelegate  {
 
     //MARK: - Properties
-    
-    let testSender = Sender(senderId: "Gaga", displayName: "Lady Gaga")
 
     //MARK: - View Life Cycle
     
@@ -28,27 +26,19 @@ class MessageThreadViewController: MessagesViewController, MessagesDataSource, M
     
     
     //MARK: - MessagesDataSource
-    
+
+    let sender = User(displayName: "", email: "", firstMessageThreadID: 0, senderId: "0")
     func currentSender() -> SenderType {
-        return self.testSender
+        return User(displayName: "", email: "", firstMessageThreadID: 0, senderId: "0")
     }
     
     func messageForItem(at indexPath: IndexPath, in messagesCollectionView: MessagesCollectionView) -> MessageType {
-        let kind = MessageKind.text("test")
-        let messageID = "44"
-        let sender = self.testSender
-        
-        let currentTime: TimeInterval = CFAbsoluteTimeGetCurrent()
-        let sentDate = Date(timeIntervalSince1970: currentTime)
-        
-        let message = Message(kind: kind, messageId: messageID, sender: sender, sentDate: sentDate)
-        return message
+        return Message(displayDate: false, kind: .text("0"), prevMessageID: 0, messageId: "3", nextMessageID: 0, sender: sender, sentDate: NSDate(timeIntervalSince1970: TimeInterval(1)) as Date)
     }
     
     func numberOfSections(in messagesCollectionView: MessagesCollectionView) -> Int {
         return 1
     }
-
 }
 
 
